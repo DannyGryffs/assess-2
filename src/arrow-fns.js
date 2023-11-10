@@ -1,42 +1,78 @@
 // Unit 2 Assessment: arrow-fns.js
 
 // Set the value of giveMeTwo to an arrow function that returns 2.
-//
+
+
+const giveMeTwo = () => {
+    return 2
+  };
+  
+  giveMeTwo();
+
+
 // Ex.:
 //   giveMeTwo();
 //   => 2
-const giveMeTwo = undefined;
+// const giveMeTwo = undefined;
 
 // Set the value of addNums to an arrow function that takes in two numbers and
 // returns their sum.
-//
-// Ex.:
+
+const addNums = (num1, num2) => {
+    return num1 + num2
+  };
+  
+  addNums(2, 2);
+
+
+
 //   addNums(1, 2);
 //   => 3
-const addNums = undefined;
+// const addNums = undefined;
+
+
 
 // Set the value of max to an arrow function that takes in two numbers and
 // returns the largest one.
-//
-// Ex.:
+
+const max = (num1, num2) => {
+    return (num1 >= num2 ? num1 : num2)
+};
+
+max(2, 3);
+
+
 //   max(1, 2);
 //   => 2
-const max = undefined;
+// const max = undefined;
 // Note: you can also do this on one line:
 // const max = (a, b) => (a >= b ? a : b);
 
+
+
 // Given an array of numbers, return a new array that only includes the even
 // numbers. Do this using array iteration methods. Do NOT use a for loop.
-//
-// Ex.:
+
+
+
+
+
 //   evens([1, 2, 3, 4, 5]);
 //   => [2, 4]
 function evens(nums) {}
 
+
+
 // Given an array of names, return a new array of greetings for each name. Do
 // this using array iteration methods. Do NOT use a for loop.
-//
-// Ex.:
+
+let names = ['Clive', 'Jill', 'Torgal'];
+
+names.forEach(
+    function ()
+)
+    
+
 //   createGreetings(['Clive', 'Jill', 'Torgal']);
 //   => ['Hello, Clive!', 'Hello, Jill!', 'Hello, Torgal!']
 function createGreetings(names) {}
