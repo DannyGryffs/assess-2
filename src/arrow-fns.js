@@ -54,23 +54,33 @@ max(2, 3);
 // numbers. Do this using array iteration methods. Do NOT use a for loop.
 
 
+const nums = [1, 2, 3, 4, 5];
 
+const evens = nums.filter(
+  function(nums) {
+      (nums % 2 === 0);
+      return (nums.filter)
+  }
+);
+
+// return (evens);
 
 
 //   evens([1, 2, 3, 4, 5]);
 //   => [2, 4]
-function evens(nums) {}
+// function evens(nums) {}
 
 
 
 // Given an array of names, return a new array of greetings for each name. Do
 // this using array iteration methods. Do NOT use a for loop.
 
-let names = ['Clive', 'Jill', 'Torgal'];
+// let names = ['Clive', 'Jill', 'Torgal'];
 
-names.forEach(
-    function ()
-)
+// names.forEach(
+//     function ()
+//     (`Hello, ${names[i]}!`);
+// )
     
 
 //   createGreetings(['Clive', 'Jill', 'Torgal']);
@@ -80,8 +90,11 @@ function createGreetings(names) {}
 // Given an array of words, return a new array where each word is uppercased
 // and only includes words that are longer than 4 characters. Do this using
 // array iteration methods (you may need more than one). Do NOT use a for loop.
-//
-// Ex.:
+
+
+
+
+
 //   loudLongWords(['apple', 'pear', 'cake', 'pinata']);
 //   => ['APPLE', 'PINATA']
 function loudLongWords(words) {}
