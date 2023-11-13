@@ -6,10 +6,11 @@
 // Each object will be structured like so:
 // { firstName: 'Dame', lastName: 'Aylin', location: 'Reithwin' }
 //
+
 // Ex.:
 //   getNames([
 //     { firstName: 'Gale', lastName: 'Dekarios', location: 'Waterdeep' },
-//     { firstName: 'Wyll', lastName: 'Ravengard', location: "Baldur's Gate" },
+//     { firstName: 'Wyll', lastName: 'Ravengard', location: "Baldur's Gate" },`
 //     { firstName: 'Karlach', lastName: 'Cliffgate', location: 'Avernus' }
 //   ]);
 //   => ['Gale Dekarios', 'Wyll Ravengard', 'Karlach Cliffgate'];
